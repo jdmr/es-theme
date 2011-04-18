@@ -7,7 +7,7 @@
                 <goal>liferay:deploy</goal>
             </goals>
             <properties>
-                <maven.test.skip>false</maven.test.skip>
+                <maven.test.skip>true</maven.test.skip>
             </properties>
         </action>
         <action>
