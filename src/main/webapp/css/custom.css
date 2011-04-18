@@ -374,3 +374,117 @@ body #banner .logo a {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
+
+/* ---------- Home Page ---------- */
+
+#home-top-left {
+    float:left;
+    width:640px;
+    overflow:hidden;
+    border-radius:0 0 0 20px;
+}
+
+#home-top-right {
+    float:right;
+    width:280px;
+    height:315px;
+    background:#F8F8F8;
+    text-align:center;
+    border-radius:0 0 20px 0;
+    overflow: hidden;
+}
+
+#home-menu-first {
+    margin-top:35px;
+}
+
+.home-menu {
+    margin-top:50px;
+    letter-spacing:1px;
+    font-size:1.5em;
+}
+
+.home-menu a {
+    text-decoration: none;
+    color: #7D7E80;
+    padding: 0 5px;
+}
+
+.home-menu a:hover {
+    text-decoration: underline;
+}
+
+.home-bottom {
+    width:294px;
+    height:400px;
+    background:#CDB49D;
+    border-radius:0 20px 0 20px;
+    
+}
+
+#home-bottom-left {
+    float:left;
+    margin: 20px 10px 20px 0;
+}
+
+#home-bottom-center {
+    float:left;
+    margin:20px 10px;
+}
+
+#home-bottom-right {
+    float:right;
+    margin:20px 0 20px 10px;
+    width:292px;
+}
+
+.home-bottom .titulo {
+    letter-spacing:1px;
+    font-size:3em;
+    color:#FFFFFF;
+    margin-bottom:0;
+    text-decoration: none;
+}
+
+.home-bottom .inner-box {
+    height:335px;
+    background:#C9AE98;
+    border-radius: 0 20px 0 20px;
+    margin: 0 10px;
+    padding:5px;
+}
+
+.home-bottom .inner-box a.titulo {
+    color:#4C4238;
+    font-size:1.5em;
+    letter-spacing:1px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.home-bottom .inner-box a.titulo:hover {
+    text-decoration: underline;
+}
+
+.home-bottom .inner-box p {
+    letter-spacing:1px;
+    color:#F1EBE6;
+    padding-top: 10px;
+}
+
+.home-bottom .inner-box .liga {
+    padding-top: 0px;
+    text-align: right;
+}
+
+.home-bottom .inner-box .liga a {
+    background:#FDFDFD;
+    padding: 5px 5px;
+    letter-spacing:1px;
+    text-decoration:none;
+    color:#4C4238;
+}
+
+.home-bottom .inner-box .liga a:hover {
+    text-decoration: underline;
+}
