@@ -395,13 +395,13 @@ body #banner .logo a {
 }
 
 #home-menu-first {
-    margin-top:35px;
+    margin-top:25px;
 }
 
 .home-menu {
-    margin-top:50px;
+    margin-top:35px;
     letter-spacing:1px;
-    font-size:1.5em;
+    font-size:1.2em;
 }
 
 .home-menu a {
@@ -452,6 +452,7 @@ body #banner .logo a {
     border-radius: 0 20px 0 20px;
     margin: 0 10px;
     padding:5px;
+    overflow: hidden;
 }
 
 .home-bottom .inner-box a.titulo {
