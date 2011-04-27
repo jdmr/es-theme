@@ -5,6 +5,7 @@
             <goals>
                 <goal>package</goal>
                 <goal>liferay:deploy</goal>
+                
             </goals>
             <properties>
                 <maven.test.skip>true</maven.test.skip>
@@ -24,6 +25,15 @@
             <actionName>build</actionName>
             <goals>
                 <goal>package</goal>
+            </goals>
+            <properties>
+                <maven.test.skip>true</maven.test.skip>
+            </properties>
+        </action>
+        <action>
+            <actionName>run.single.deploy</actionName>
+            <goals>
+                <goal>liferay:deploy</goal>
             </goals>
             <properties>
                 <maven.test.skip>true</maven.test.skip>
