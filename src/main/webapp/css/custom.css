@@ -489,3 +489,7 @@ body #banner .logo a {
 .home-bottom .inner-box .liga a:hover {
     text-decoration: underline;
 }
+
+p.powered-by {
+    padding: 5px 20px;
+}
