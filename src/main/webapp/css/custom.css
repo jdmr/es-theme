@@ -416,7 +416,7 @@ body #banner .logo a {
 
 .home-bottom {
     width:294px;
-    height:400px;
+    height:465px;
     background:#CDB49D;
     border-radius:0 20px 0 20px;
     
@@ -424,17 +424,17 @@ body #banner .logo a {
 
 #home-bottom-left {
     float:left;
-    margin: 20px 10px 20px 0;
+    margin: 5px 10px 20px 0;
 }
 
 #home-bottom-center {
     float:left;
-    margin:20px 10px;
+    margin:5px 10px 20px 10px;
 }
 
 #home-bottom-right {
     float:right;
-    margin:20px 0 20px 10px;
+    margin:5px 0 20px 10px;
     width:292px;
 }
 
@@ -447,7 +447,7 @@ body #banner .logo a {
 }
 
 .home-bottom .inner-box {
-    height:335px;
+    height:400px;
     background:#B59B85;
     border-radius: 0 20px 0 20px;
     margin: 0 10px;
@@ -465,6 +465,13 @@ body #banner .logo a {
 
 .home-bottom .inner-box a.titulo:hover {
     text-decoration: underline;
+}
+
+.home-bottom .inner-box p.autor {
+    text-align: right;
+    color:#EFEFEF;
+    margin-bottom: 0;
+    padding-top: 0;
 }
 
 .home-bottom .inner-box p {
