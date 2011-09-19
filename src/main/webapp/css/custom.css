@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #FFFFFF url(../images/bg.jpg) repeat-x;
+    background: #E6D7C8;
     font-size: 11px;
     font: 12px verdana, arial, elvetica, sans-serif;
     width: 960px;
@@ -16,17 +16,17 @@ body {
 }
 
 a {
-    color: #5B677D;
-    text-decoration: underline;
+    color: #005DAC;
+    text-decoration: none;
 }
 
 a:hover {
-    color: #06C;
+    color: #50A9E9;
     text-decoration: none;
 }
 
 hr, .separator {
-    border-color: #BFBFBF transparent #FFF;
+    border-color: #855A33 transparent #FFF;
     border-style: solid;
     border-width: 1px 0;
 }
@@ -59,12 +59,16 @@ body #banner .logo a {
     float: left;
 }
 
+#heading .logo {
+    margin: 0 15px;
+}
+
 .current-community {
     display: none;
 }
 
 .logo .current-community {
-    background: #A6AFBE url(../images/dock/my_places_public.png) no-repeat 15px 50%;
+    background: #617A7E url(../images/dock/my_places_public.png) no-repeat 15px 50%;
     color: #FFF;
     display: block;
     float: right;
@@ -109,7 +113,7 @@ body #banner .logo a {
 /* ---------- Main navigation ---------- */
 
 #navigation {
-    background: #FFFFFF url(../images/menu.jpg) repeat-x 0 0;
+    background-color: #CDB49D;
     clear: both;
     position: relative;
     z-index: 1;
@@ -142,11 +146,11 @@ body #banner .logo a {
 }
 
 #navigation a {
-    color: #7D7E80;
+    color: #FFFFFF;
     font-size: 1.3em;
     font-weight: normal;
     margin: 0;
-    padding: 3px 15px;
+    padding: 2px 15px;
     text-decoration: none;
     letter-spacing: 2px;
 }
@@ -160,16 +164,16 @@ body #banner .logo a {
 }
 
 #navigation .selected a, #navigation a:hover, #navigation a:focus, #navigation .child-menu li a, #navigation .aui-dd-dragging, .lfr-navigation-proxy {
-    background: #FFFFFF url(../images/menu_sel.jpg) repeat-x 0 0;
+    background-color: #b59b85;
     /*color: #7D7E80;*/
 }
 
 #navigation li.selected {
-    background: #FFFFFF url(../images/menu_sel.jpg) repeat-x 0 0;
+    background-color: #b59b85;
 }
 
 #navigation li:hover .child-menu {
-    background: #1E2529;
+    background: #b59b85;
     display: block;
     position: absolute;
     width: 200px;
@@ -177,7 +181,7 @@ body #banner .logo a {
 }
 
 .ie6 #navigation li.hover .child-menu {
-    background: #1E2529;
+    background: #b59b85;
     display: block;
     position: absolute;
     width: 200px;
@@ -209,11 +213,11 @@ body #banner .logo a {
 }
 
 #navigation .child-menu li a:hover {
-    background-color: #020509;
+    background-color: #b59b85;
 }
 
 #navigation .child-menu .selected a {
-    background: #020509 url(../images/navigation/bullet_selected.png) no-repeat 5px 50%;
+    background-color: #b59b85;
 }
 
 /* ---------- Portlet wrapper and icons ---------- */
@@ -389,9 +393,59 @@ body #banner .logo a {
     width:279px;
     height:315px;
     background:#F8F8F8;
-    text-align:center;
     border-radius:0 0 20px 0;
     overflow: hidden;
+}
+
+#home-top-right a.titulo {
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #005DAC;
+}
+
+#home-top-right a.titulo:hover {
+    text-decoration: none;
+    color: #50A9E9;
+}
+
+#home-top-right p.titulo {
+    padding: 10px 5px 0;
+    letter-spacing: 1px;
+    color: #4C4238;
+    text-align: center;
+}
+
+#home-top-right p.top {
+    padding: 0 5px;
+    letter-spacing: 1px;
+    color: #4C4238;
+    text-align: justify;
+}
+
+#home-top-right p.fecha {
+    padding: 0 5px;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #4C4238;
+}
+
+#home-top-right p.liga {
+    padding: 0 5px;
+    letter-spacing: 1px;
+    text-align: right;
+}
+
+#home-top-right p.liga a {
+    background:#50A9E9;
+    padding: 5px 5px;
+    text-decoration:none;
+    color:#FFFFFF;
+}
+
+#home-top-right p.liga a:hover {
+    background:#005DAC;
 }
 
 #home-menu-first {
@@ -415,7 +469,7 @@ body #banner .logo a {
 }
 
 .home-bottom {
-    width:294px;
+    width:450px;
     height:465px;
     background:#CDB49D;
     border-radius:0 20px 0 20px;
@@ -435,7 +489,7 @@ body #banner .logo a {
 #home-bottom-right {
     float:right;
     margin:5px 0 20px 10px;
-    width:291px;
+    width:450px;
 }
 
 .home-bottom .titulo {
@@ -478,6 +532,7 @@ body #banner .logo a {
     letter-spacing:1px;
     color:#F1EBE6;
     padding-top: 10px;
+    text-align: justify;
 }
 
 .home-bottom .inner-box .liga {
